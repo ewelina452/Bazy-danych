@@ -1,0 +1,21 @@
+
+1.
+id_produktu->nazwa_produktu,id_klienta,nazwa_klienta,data_zamowienia,cena_produktu,ilość,VAT,suma_brutto,suma_netto
+nazwa_produktu->cena_produktu,VAT
+suma_brutto->suma_netto,VAT
+id_produktu,id_klienta->data_zamowienia
+id_klienta->nazwa_klienta
+
+
+2. klucze kandydujące:
+id_produktu, nazwa_klienta + data_zamówienia
+
+3.
+id_pomieszczenia->numer_pomieszczenia, id_budynku,powierzchnia,liczba_okien,liczba_drzwi,ulica_miasto,kod_pocztowy
+miasto, ulica->kod_pocztowy
+numer_pomieszczenia->id_budynku,id_pomieszczenia
+
+klucze kandydujące
+id_budynku + numer_pomieszczenia,
+
+
